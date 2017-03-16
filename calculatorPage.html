@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title>Калькулятор</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   </head>
+   <body>
+      <header id="mainHeader">
+         <a href="./mainPage.html"><img src="./webLogo.png" alt="Logo" width="150" /></a>
+            <h1>Основы Web-технологий</h1>
+               <ul id="mainMenu">
+                  <li><a href="./mainPage.html">Главная</a></li>
+                  <li><a href="./webTechPage.html">Web-технологии</a></li>
+                     <ul id="dropdownList">
+                        <li><a href="./html5Page.html">HTML5</a></li>
+                        <li><a href="./css3Page.html">CSS3</a></li>
+                        <li><a href="./jsPage.html">JavaScript</a></li>
+                     </ul>
+                  <li><a href="./calculatorPage.html">Калькулятор</a></li>
+                  <li><a href="./testTaskPage.html">Тест</a></li> 
+               </ul>              
+      </header>
+      <table id="tableCalculator" border="1">
+         <caption><strong>Calculator</strong></caption>
+         <tr>
+            <td colspan="5">
+               <form id="calculatorScreen" name="calculatorForm" enctype="multipart/form-data">
+                  <input type="text" name="calcScreen" />
+               </form>
+            </td>
+         </tr>
+         <tr>
+            <td><button id="calcButton7" value="7">7</button></td>
+            <td><button id="calcButton8" value="8">8</button></td>
+            <td><button id="calcButton9" value="9">9</button></td>
+            <td><button id="calcButtonDivision" value="&#247;">/</button></td>
+            <td><button id="calcButtonClearing" type="reset">C</button></td>
+         </tr>
+         <tr>
+            <td><button id="calcButton4" value="4">4</button></td>
+            <td><button id="calcButton5" value="5">5</button></td>
+            <td><button id="calcButton6" value="6">6</button></td>
+            <td><button id="calcButtonMultiplication" value="&#215;">*</button></td>
+            <td><button id="calcButtonPlusMinus" value="&#177;">&plusmn;</button></td>
+         </tr>
+         <tr>
+            <td><button id="calcButton1" value="1">1</button></td>
+            <td><button id="calcButton2" value="2">2</button></td>
+            <td><button id="calcButton3" value="3">3</button></td>
+            <td><button id="calcButtonDeduction" value="&#8722;">-</button></td>
+            <td rowspan="2"><button id="calcButtonEqually" type="submit">=</button></td>
+         </tr>
+         <tr>
+            <td colspan="2"><button id="calcButton0" value="0">0</button></td>
+            <td><button id="calcButtonDot" value=".">.</button></td>
+            <td><button id="calcButtonSum" value="+">+</button></td>
+         </tr>
+      </table>
+      <footer id="footer">
+         <p>
+            <a href="mailto:nataliia.burdina@gmail.com"><em>Пишите: nataliia.burdina@gmail.com</em></a><br />
+            &#169; Burdina N., 2017      
+         </p>
+      </footer>
+   </body>
+</html>
+      
